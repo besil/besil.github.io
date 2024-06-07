@@ -1,381 +1,373 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Silvio Bernardinello Personal Site" />
-    <meta name="author" content="Silvio Bernardinello" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Silvio Bernardinello Personal Site"/>
+    <meta name="author" content="Silvio Bernardinello"/>
     <title>Silvio Personal Site</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-</head>
+    <link rel="icon" type="image/x-icon" href="assets/icons/bernardinello-logo.png"/>
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"-->
+    <!--          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <style>
+        :root {
+            --bs-font-sans-serif: 'Roboto', sans-serif;
+        }
+    </style>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Silvio Bernardinello</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src="assets/img/fox.jpg" alt="..." /></span>
+    <!--    <style>-->
+    <!--    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');-->
+    <!--    body {-->
+    <!--      &#45;&#45;bs-font-sans-serif: 'Roboto', sans-serif;-->
+    <!--      &#45;&#45;bs-body-font-family: var(&#45;&#45;bs-font-sans-serif);-->
+    <!--      &#45;&#45;bs-font-monospace: 'VT323', monospace;-->
+    <!--    }-->
+    <!--  </style>-->
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://silvio.bernardinello.cloud">
+            <img src="assets/icons/bernardinello-logo.png" alt="logo" style="height: 40px">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#music">Music</a></li>
-                <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#services">Services</a>
+                </li>
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link text-white" href="#">Testimonials</a>-->
+                <!--                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#faq">FAQ</a>
+                </li>
+            </ul>
+            <a href="mailto:silvio.bernardinello@gmail.com"
+               class="btn btn-outline-light rounded-pill text-white my-2 my-sm-0" type="submit">Get in touch</a>
+        </div>
+    </div>
+</nav>
+
+
+<main>
+    <section class="py-5 my-5 text-start container" id="landing">
+        <div class="row py-lg-5">
+            <div class="col-auto">
+                <h1 class="display-1 text-bg-secondary">
+                    From <strong class="fw-bold">Idea</strong> to <strong class="fw-bold">Production</strong>
+                </h1>
+                <h1 class="display-1 text-bg-secondary">
+                    Turn your <strong class="fw-bold text-primary">Vision</strong> into <strong
+                        class="fw-bold text-primary">Digital Reality</strong>
+                </h1>
+                <h1 class="display-1 fw-bold text-bg-primary d-inline-block">
+                    Together
+                </h1>
+
+                <div class="my-5">
+                    <p class="lead text-body-secondary">
+                        Hi, I'm <strong class="fw-bold">Silvio Bernardinello</strong>, your Technology Partner for
+                        building and scaling
+                        your next project.
+                    </p>
+                    <p class="lead text-body-secondary">
+                        I can help <strong class="fw-bold">you</strong> in <strong class="fw-bold">all the
+                        phases</strong> of your digital journey.
+                    </p>
+                </div>
+
+                <p class="my-5">
+                    <a href="https://cal.com/silvio-bernardinello/discovery-call"
+                       target="_blank"
+                       class="btn btn-lg btn-primary rounded-pill my-2">
+                        Book a FREE call
+                        <i class="ms-2 bi bi-earbuds"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 text-start container" id="services">
+        <div class="row mb-5">
+            <div class="col">
+                <h1 class="display-3 text-bg-secondary text-center">
+                    Some use cases where I can help you
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="card-header">Bootstrapping</div>
+                    <div class="card-body">
+                        <p class="card-text fst-italic">
+                            "I have a <strong>Business Idea</strong> for an app/website.
+                            Can you help me build and manage it?"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="card-header">Cloud migration</div>
+                    <div class="card-body">
+                        <p class="card-text fst-italic">
+                            "We are moving our services to the <strong>cloud with Kubernetes</strong>.
+                            Can you help us with this transition?"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="card-header">Tailored software solutions</div>
+                    <div class="card-body">
+                        <p class="card-text fst-italic">
+                            "We are a firm of professionals and we need a
+                            <strong>custom management software</strong> tailored for our needs."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="card-header">Fractional CTO</div>
+                    <div class="card-body">
+                        <p class="card-text fst-italic">
+                            "We need someone who can handle all the <strong>technical complexity</strong>,
+                            <strong>hire a team</strong> and help us
+                            <strong>prioritize development</strong> for our go-to-market strategy."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="card-header">Site Reliability Engineering</div>
+                    <div class="card-body">
+                        <p class="card-text fst-italic">
+                            "We need to structure our service to be <strong>24/7</strong>.
+                            We need more monitoring capabilities and live alerts to lower our
+                            <strong>customer churn</strong>."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="card-header">Data & Intelligence</div>
+                    <div class="card-body">
+                        <p class="card-text fst-italic">
+                            "I want to gather insights from my data.
+                            Which is the best <strong>analytics platform</strong> for me?
+                            How can I build the <strong>data pipelines</strong>?
+                            Do I need a <strong>data platform</strong>?"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-5 text-start container" id="about">
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3">
+                    <img src="assets/img/profile-photo.jpeg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <h3 class="card-header">About me</h3>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Hi 👋 my name is Silvio, and I'm from 🇮🇹
+                        </p>
+                        <p class="card-text">
+                            I'm a passionate and curious Computer Scientist with a
+                            <strong>decade of professional experience</strong>
+                            in both Startups and Enterprises.
+                        </p>
+                        <p class="card-text">
+                            Over the years, I've held roles as Tech Lead, Scrum Master and Manager at several companies.
+                            This path eventually led me to became <strong>entrepreneur</strong> and
+                            <strong>CTO</strong> of my own startup.
+                        </p>
+                        <p class="card-text">
+                            During this journey, I've had the opportunity to refine my skills and tackle any
+                            technological and managerial challenge with confidence.
+                            The experience and expertise gained enable me to effectively manage work,
+                            both for myself and others in <strong>high-complexity</strong> contexts.
+                        </p>
+                        <p class="card-text">
+                            I can <strong>help you</strong> in various stages of your journey to:
+                        </p>
+                        <ul>
+                            <li>
+                                structure your business strategy in an actionable <strong>product roadmap</strong>
+                            </li>
+                            <li>
+                                bootstrap your project with the <strong>right technological choices</strong>
+                            </li>
+                            <li>
+                                speed up your velocity and <strong>accelerate your go-to-market strategy</strong>
+                            </li>
+                            <li>
+                                bring your idea to life or help you coordinate the <strong>development team</strong>
+                            </li>
+                            <li>
+                                <strong>hire the team</strong> you need, when you need it
+                            </li>
+                            <li>
+                                automate your operations with best practices and optimize your
+                                <strong>running costs</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <h3 class="card-header">My background</h3>
+                    <div class="card-body">
+                        <p class="card-text">
+                            I got my Master Degree in Computer Science in 2014.
+                            After some work years, in Oct 2019 I pursued my Executive MBA
+                            from Politecnico di Milano Business School
+                            and started collaborating with various startups since then.
+                        </p>
+                        <p class="card-text">
+                            My hobbies include playing the piano
+                            (classical music, I graduated at Conservatorio di Milano),
+                            traveling and hicking.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 text-start container" id="faq">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-center">Frequently Asked Questions</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionFAQ">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                What services do you offer?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="faq1"
+                             data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                I solve problems related to digital products. I can help you craft a new
+                                software based on your needs or extend your already running software with new services.
+                                I can help you scale your team and select the winning technology for you.
+                                I can help you in specific use cases, such as Cloud and Data Management.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Do you write code?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq2"
+                             data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                Yes, I love coding, and I'm used to say "I code for food".
+                                I code in several languages, and in case you were wondering, my favorite one is Python.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Do you have a team?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faq3"
+                             data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                Yes, I leverage a network of different types of professionals (designers, project
+                                managers, ...).
+                                They can help me or you any time needed.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                How do you handle confidential information and data security?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="faq4"
+                             data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                I can sign an NDA and terms sheet to ensure the appropriate confidentiality
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+</main>
+
+
+<footer class="text-body-secondary py-5">
+    <div class="container">
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2024 Silvio Bernardinello. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="link-body-emphasis" href="https://www.linkedin.com/in/silvio-bernardinello/">
+                        <i class="bi bi-linkedin"></i>
+                    </a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="https://github.com/besil">
+                    <i class="bi bi-github"></i>
+                </a></li>
             </ul>
         </div>
-    </nav>
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Silvio
-                    <span class="text-primary">Bernardinello</span>
-                </h1>
-                <div class="subheading mb-5">
-                    Milan, Italy ·
-                    <a href="mailto:silvio.bernardinello@gmail.com">silvio.bernardinello@gmail.com</a>
-                </div>
-                <p class="lead mb-5">
-                    I am experienced IT Architect with deep knowledge of Agile methodologies.
-                </p>
-                <p class="lead mb-5">
-                    MBA Alumnus with entrepreneurial spirit, classical music lover
-                </p>
-                <p class="lead mb-5">
-                    I don't believe in coincidences
-                </p>
-                <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/silvio-bernardinello/" target="_blank"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon" href="https://github.com/besil" target="_blank"><i
-                            class="fab fa-github"></i></a>
-                    <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a> -->
-                    <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Experience-->
-        <section class="resume-section" id="experience">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Experience</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Scrum Master</h3>
-                        <div class="subheading mb-3">Assicurazioni Generali</div>
-                        <p>
-                            Started as Senior Big Data Architect in the IT Data & Analytics Dev Team,
-                            currently Scrum Master of the Generali Digital Platform Squad
-                        </p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Feb 2019 - Present</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Big Data Specialist</h3>
-                        <div class="subheading mb-3">Fastweb</div>
-                        <p>Big Data evangelist in the Data Platforms Team, Digital Transformation Division</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Nov 2017 - Feb 2019</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Big Data Architect</h3>
-                        <div class="subheading mb-3">UnipolSai Assicurazioni</div>
-                        <p>
-                            Big Data Tech leader in the Innovation Lab
-                        </p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Oct 2015 - Oct 2017</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Big Data Engineer</h3>
-                        <div class="subheading mb-3">Beintoo</div>
-                        <p>
-                            Data engineer in the core development team
-                        </p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">May 2015 - Oct 2015</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Big Data Consultant</h3>
-                        <div class="subheading mb-3">Reply</div>
-                        <p>
-                            Big Data consultant for different industries (mainly Financial Services)
-                        </p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Oct 2014 - May 2015</span></div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Education-->
-        <section class="resume-section" id="education">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Education</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">MIP - Polimi Business School</h3>
-                        <div class="subheading mb-3">Executive MBA</div>
-                        <p>Master in Business Administration, Digital Transformation concentration</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">2019 - 2021</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Università degli Studi di Milano</h3>
-                        <div class="subheading mb-3">Master Degree</div>
-                        <p>Computer Science</p>
-                        <p>110/110 cum laude</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">2012 - 2014</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Conservatorio di Milano Giuseppe Verdi</h3>
-                        <div class="subheading mb-3">Diploma Pianoforte</div>
-                        <p></p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">2000 - 2010</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Università degli Studi di Milano</h3>
-                        <div class="subheading mb-3">Bachelor Degree</div>
-                        <p>Computer Science</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">2009 - 2012</span></div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Skills-->
-        <section class="resume-section" id="skills">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Skills</h2>
-                <div class="subheading mb-3">Programming Languages & Tools</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-java"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-docker"></i></li>
-                    <li class="list-inline-item"><i class="fas fa-cloud"></i></li>
-                    <li class="list-inline-item"><i class="fas fa-database"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-jenkins"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-git"></i></li>
-                </ul>
-                <div class="subheading mb-3">Other</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Kotlin lover
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Kubernetes
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Cloud and serverless
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        SQL and NoSQL databases
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Continuous Integration and Development
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Agile Development & Scrum
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Interests-->
-        <section class="resume-section" id="music">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Music</h2>
-                <div>
-                    <p>Apart from software, I enjoy playing the piano (mostly classical music). You can find here some
-                        of my recordings</p>
-                    <p>Sorry for bad quality, I'm working on it :)</p>
-                </div>
-
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h4 class="mb-0">Partita 5 in G minor BWV 829</h4>
-                        <div class="subheading mb-3">J.S. Bach</div>
-                        <p>
-                            <audio controls>
-                                <source
-                                    src="https://onedrive.live.com/download?cid=998FCF4D75365DE5&resid=998FCF4D75365DE5%2140947&authkey=ACQ0-rgeCZXqpaA"
-                                    type="audio/mp3">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </p>
-                    </div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h4 class="mb-0">Scherzo und Marsch</h4>
-                        <div class="subheading mb-3">Franz Liszt</div>
-                        <p>
-                            <audio controls>
-                                <source
-                                    src="https://onedrive.live.com/download?cid=998FCF4D75365DE5&resid=998FCF4D75365DE5%2140945&authkey=AEht1b0R1NMr9Nk"
-                                    type="audio/mp3">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h4 class="mb-0">Four Klavierstucke op. 119</h4>
-                        <div class="subheading mb-3">Johannes Brahms</div>
-                        <p>
-                            <audio controls>
-                                <source
-                                    src="https://onedrive.live.com/download?cid=998FCF4D75365DE5&resid=998FCF4D75365DE5%2140944&authkey=AAJuHwFwDYXIDrU"
-                                    type="audio/mp3">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h4 class="mb-0">Pour le Piano</h4>
-                        <div class="subheading mb-3">Claude Debussy</div>
-                        <p>
-                            <audio controls>
-                                <source
-                                    src="https://onedrive.live.com/download?cid=998FCF4D75365DE5&resid=998FCF4D75365DE5%2140946&authkey=AGjDnVUs38fB02E"
-                                    type="audio/mp3">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h4 class="mb-0">Preludio op. 28 n. 15 "Raindrop"</h4>
-                        <div class="subheading mb-3">Frédéric Chopin</div>
-                        <p>
-                            <audio controls>
-                                <source
-                                    src="https://onedrive.live.com/download?cid=998FCF4D75365DE5&resid=998FCF4D75365DE5%2140943&authkey=AFirLGQwSmmG1Uo"
-                                    type="audio/mp3">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </p>
-                    </div>
-                </div>
-
-                <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <p>Apart from software, I enjo playing the piano (mostly classical music). You can find here some of my recordings</p>
-                    <p>Sorry for bad quality, I'm working on it :)</p>
-                </div>
-                    <p>
-                        <span class="fa-li"></span>
-                        <audio controls>
-                            <source src="https://onedrive.live.com/download?cid=998FCF4D75365DE5&resid=998FCF4D75365DE5%2140947&authkey=ACQ0-rgeCZXqpaA" type="audio/mp3">
-                          Your browser does not support the audio element.
-                          </audio>
-                    </p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
-
-                
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Partita 5 in G minor BWV 829</h3>
-                        <div class="subheading mb-3">J.S. Bach</div>
-                        <p>
-                            Started as Senior Big Data Architect in the IT Data & Analytics Dev Team,
-                            currently Scrum Master of the Generali Digital Platform Squad
-                        </p>
-                    </div>
-                </div> -->
-
-        </section>
-        <hr class="m-0" />
-        <!-- Awards-->
-        <!-- <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section> -->
     </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-</body>
+</footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
 </html>
