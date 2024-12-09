@@ -198,7 +198,103 @@
                 </div>
             </div>
         </section>
+
+        <!-- Best I did -->
+        <style>
+            #photocontainer {
+                height: 100px;
+                position: relative;
+                overflow: hidden;
+            }
+
+            #photocontainer:hover .photobanner {
+                animation-play-state: paused;
+            }
+
+            .photobanner {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                overflow: hidden;
+                white-space: nowrap;
+                animation: bannermove 15s linear infinite;
+            }
+
+            .photobanner img {
+                margin: 0 0.5em
+            }
+
+            @keyframes bannermove {
+                0% {
+                    transform: translate(0, 0);
+                }
+
+                100% {
+                    transform: translate(-50%, 0);
+                }
+            }
+        </style>
+
         <section class="container" id="testimonials">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-8 text-bg-secondary text-center">
+                        Some companies I worked with
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col">
+                    <div id="photocontainer">
+                        <div class="photobanner">
+                            <img src="/assets/img/companies/soource.svg" alt="soource" width="100px">
+                            <img src="/assets/img/companies/liqi.png" alt="liqi" width="100px">
+                            <img src="/assets/img/companies/generali.svg" alt="generali" width="100px">
+                            <img src="/assets/img/companies/fastweb.png" alt="fastweb" width="100px">
+                            <img src="/assets/img/companies/unipolsai.png" alt="unipolsai" width="100px">
+                            <img src="/assets/img/companies/beintoo.png" alt="beintoo" width="100px">
+                            <img src="/assets/img/companies/reply.svg" alt="reply" width="100px">
+                            <img src="/assets/img/companies/mwm.png" alt="macro-web-media-technology" width="100px">
+                            <img src="/assets/img/companies/unimi.png" alt="università degli studi di Milano" width="100px">
+        
+                            <img src="/assets/img/companies/soource.svg" alt="soource" width="100px">
+                            <img src="/assets/img/companies/liqi.png" alt="liqi" width="100px">
+                            <img src="/assets/img/companies/generali.svg" alt="generali" width="100px">
+                            <img src="/assets/img/companies/fastweb.png" alt="fastweb" width="100px">
+                            <img src="/assets/img/companies/unipolsai.png" alt="unipolsai" width="100px">
+                            <img src="/assets/img/companies/beintoo.png" alt="beintoo" width="100px">
+                            <img src="/assets/img/companies/reply.svg" alt="reply" width="100px">
+                            <img src="/assets/img/companies/mwm.png" alt="macro-web-media-technology" width="100px">
+                            <img src="/assets/img/companies/unimi.png" alt="università degli studi di Milano" width="100px">
+        
+                            <img src="/assets/img/companies/soource.svg" alt="soource" width="100px">
+                            <img src="/assets/img/companies/liqi.png" alt="liqi" width="100px">
+                            <img src="/assets/img/companies/generali.svg" alt="generali" width="100px">
+                            <img src="/assets/img/companies/fastweb.png" alt="fastweb" width="100px">
+                            <img src="/assets/img/companies/unipolsai.png" alt="unipolsai" width="100px">
+                            <img src="/assets/img/companies/beintoo.png" alt="beintoo" width="100px">
+                            <img src="/assets/img/companies/reply.svg" alt="reply" width="100px">
+                            <img src="/assets/img/companies/mwm.png" alt="macro-web-media-technology" width="100px">
+                            <img src="/assets/img/companies/unimi.png" alt="università degli studi di Milano" width="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Call-to-Action Button -->
+            <div class="d-flex justify-content-center mt-5">
+                <a href="https://cal.com/silvio-bernardinello/discovery-call" target="_blank"
+                    class="btn btn-lg btn-primary rounded-pill my-2">
+                    Let's talk
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Previous solution (static) -->
+        <!-- <section class="container" id="testimonials">
             <div class="row">
                 <div class="col">
                     <h1 class="display-8 text-bg-secondary text-center">
@@ -267,7 +363,7 @@
                     <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
-        </section>
+        </section> -->
 
         <!-- Custom CSS to fix carousel row height -->
         <style>
