@@ -217,12 +217,20 @@
                 left: 0px;
                 overflow: hidden;
                 white-space: nowrap;
-                animation: bannermove 15s linear infinite;
+                animation: bannermove 25s linear infinite;
             }
 
-            .photobanner img {
-                margin: 0 0.5em
+            .photobanner a {
+                text-decoration: none;
+                /* Removes underline */
             }
+
+            .photobanner a img {
+                margin: 0 0.5em;
+                /* display: block; */
+                /* Ensures alignment */
+            }
+
 
             @keyframes bannermove {
                 0% {
@@ -248,35 +256,92 @@
                 <div class="col">
                     <div id="photocontainer">
                         <div class="photobanner">
-                            <img src="/assets/img/companies/soource.svg" alt="soource" width="100px">
-                            <img src="/assets/img/companies/liqi.png" alt="liqi" width="100px">
-                            <img src="/assets/img/companies/generali.svg" alt="generali" width="100px">
-                            <img src="/assets/img/companies/fastweb.png" alt="fastweb" width="100px">
-                            <img src="/assets/img/companies/unipolsai.png" alt="unipolsai" width="100px">
-                            <img src="/assets/img/companies/beintoo.png" alt="beintoo" width="100px">
-                            <img src="/assets/img/companies/reply.svg" alt="reply" width="100px">
-                            <img src="/assets/img/companies/mwm.png" alt="macro-web-media-technology" width="100px">
-                            <img src="/assets/img/companies/unimi.png" alt="università degli studi di Milano" width="100px">
-        
-                            <img src="/assets/img/companies/soource.svg" alt="soource" width="100px">
-                            <img src="/assets/img/companies/liqi.png" alt="liqi" width="100px">
-                            <img src="/assets/img/companies/generali.svg" alt="generali" width="100px">
-                            <img src="/assets/img/companies/fastweb.png" alt="fastweb" width="100px">
-                            <img src="/assets/img/companies/unipolsai.png" alt="unipolsai" width="100px">
-                            <img src="/assets/img/companies/beintoo.png" alt="beintoo" width="100px">
-                            <img src="/assets/img/companies/reply.svg" alt="reply" width="100px">
-                            <img src="/assets/img/companies/mwm.png" alt="macro-web-media-technology" width="100px">
-                            <img src="/assets/img/companies/unimi.png" alt="università degli studi di Milano" width="100px">
-        
-                            <img src="/assets/img/companies/soource.svg" alt="soource" width="100px">
-                            <img src="/assets/img/companies/liqi.png" alt="liqi" width="100px">
-                            <img src="/assets/img/companies/generali.svg" alt="generali" width="100px">
-                            <img src="/assets/img/companies/fastweb.png" alt="fastweb" width="100px">
-                            <img src="/assets/img/companies/unipolsai.png" alt="unipolsai" width="100px">
-                            <img src="/assets/img/companies/beintoo.png" alt="beintoo" width="100px">
-                            <img src="/assets/img/companies/reply.svg" alt="reply" width="100px">
-                            <img src="/assets/img/companies/mwm.png" alt="macro-web-media-technology" width="100px">
-                            <img src="/assets/img/companies/unimi.png" alt="università degli studi di Milano" width="100px">
+                            <a href="https://soource.com/" target="_blank">
+                                <img src="/assets/img/companies/soource.svg" alt="soource" width="100px">
+                            </a>
+                            <a href="https://liqi.it/" target="_blank">
+                                <img src="/assets/img/companies/liqi.png" alt="liqi" width="100px">
+                            </a>
+                            <a href="https://www.generali.it/" target="_blank">
+                                <img src="/assets/img/companies/generali.svg" alt="generali" width="100px">
+                            </a>
+                            <a href="https://www.fastweb.it/" target="_blank">
+                                <img src="/assets/img/companies/fastweb.png" alt="fastweb" width="100px">
+                            </a>
+                            <a href="https://www.unipolsai.it/" target="_blank">
+                                <img src="/assets/img/companies/unipolsai.png" alt="unipolsai" width="100px">
+                            </a>
+                            <a href="https://beintoo.com/" target="_blank">
+                                <img src="/assets/img/companies/beintoo.png" alt="beintoo" width="100px">
+                            </a>
+                            <a href="https://www.reply.com/" target="_blank">
+                                <img src="/assets/img/companies/reply.svg" alt="reply" width="100px">
+                            </a>
+                            <a href="https://www.macrowebmedia.it/" target="_blank">
+                                <img src="/assets/img/companies/mwm.png" alt="macro-web-media-technology" width="100px">
+                            </a>
+                            <a href="https://informatica.cdl.unimi.it/it" target="_blank">
+                                <img src="/assets/img/companies/unimi.png" alt="università degli studi di Milano"
+                                    width="100px">
+                            </a>
+
+                            <a href="https://soource.com/" target="_blank">
+                                <img src="/assets/img/companies/soource.svg" alt="soource" width="100px">
+                            </a>
+                            <a href="https://liqi.it/" target="_blank">
+                                <img src="/assets/img/companies/liqi.png" alt="liqi" width="100px">
+                            </a>
+                            <a href="https://www.generali.it/" target="_blank">
+                                <img src="/assets/img/companies/generali.svg" alt="generali" width="100px">
+                            </a>
+                            <a href="https://www.fastweb.it/" target="_blank">
+                                <img src="/assets/img/companies/fastweb.png" alt="fastweb" width="100px">
+                            </a>
+                            <a href="https://www.unipolsai.it/" target="_blank">
+                                <img src="/assets/img/companies/unipolsai.png" alt="unipolsai" width="100px">
+                            </a>
+                            <a href="https://beintoo.com/" target="_blank">
+                                <img src="/assets/img/companies/beintoo.png" alt="beintoo" width="100px">
+                            </a>
+                            <a href="https://www.reply.com/" target="_blank">
+                                <img src="/assets/img/companies/reply.svg" alt="reply" width="100px">
+                            </a>
+                            <a href="https://www.macrowebmedia.it/" target="_blank">
+                                <img src="/assets/img/companies/mwm.png" alt="macro-web-media-technology" width="100px">
+                            </a>
+                            <a href="https://informatica.cdl.unimi.it/it" target="_blank">
+                                <img src="/assets/img/companies/unimi.png" alt="università degli studi di Milano"
+                                    width="100px">
+                            </a>
+
+                            <a href="https://soource.com/" target="_blank">
+                                <img src="/assets/img/companies/soource.svg" alt="soource" width="100px">
+                            </a>
+                            <a href="https://liqi.it/" target="_blank">
+                                <img src="/assets/img/companies/liqi.png" alt="liqi" width="100px">
+                            </a>
+                            <a href="https://www.generali.it/" target="_blank">
+                                <img src="/assets/img/companies/generali.svg" alt="generali" width="100px">
+                            </a>
+                            <a href="https://www.fastweb.it/" target="_blank">
+                                <img src="/assets/img/companies/fastweb.png" alt="fastweb" width="100px">
+                            </a>
+                            <a href="https://www.unipolsai.it/" target="_blank">
+                                <img src="/assets/img/companies/unipolsai.png" alt="unipolsai" width="100px">
+                            </a>
+                            <a href="https://beintoo.com/" target="_blank">
+                                <img src="/assets/img/companies/beintoo.png" alt="beintoo" width="100px">
+                            </a>
+                            <a href="https://www.reply.com/" target="_blank">
+                                <img src="/assets/img/companies/reply.svg" alt="reply" width="100px">
+                            </a>
+                            <a href="https://www.macrowebmedia.it/" target="_blank">
+                                <img src="/assets/img/companies/mwm.png" alt="macro-web-media-technology" width="100px">
+                            </a>
+                            <a href="https://informatica.cdl.unimi.it/it" target="_blank">
+                                <img src="/assets/img/companies/unimi.png" alt="università degli studi di Milano"
+                                    width="100px">
+                            </a>
                         </div>
                     </div>
                 </div>
